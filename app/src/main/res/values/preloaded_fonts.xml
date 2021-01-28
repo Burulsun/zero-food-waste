@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/actor</item>
+        <item>@font/adamina</item>
+        <item>@font/alegreya_sc</item>
+        <item>@font/alex_brush</item>
+        <item>@font/allura</item>
+        <item>@font/almendra</item>
+        <item>@font/amatic_sc</item>
+        <item>@font/arizonia</item>
+        <item>@font/astloch</item>
+        <item>@font/atma_light</item>
+    </array>
+</resources>

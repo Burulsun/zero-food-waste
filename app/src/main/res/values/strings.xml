@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">NewFYP</string>
+    <string name="slogan_name">BizdinApp</string>
+    <string name="good_food">Jakshy tamak kalgancha, jaman kursak airylsyn</string>
+
+
+    <!-- Strings for On Boarding Screen -->
+
+    <!--Titles-->
+    <string name="first_slide_title">Find your favorite food cheaper</string>
+    <string name="second_slide_title">Track discounts</string>
+    <string name="third_slide_title">Become eco-friendly, save a planet</string>
+
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">You can search any place nearby or with-in the specified city. We will display specific or all related shops to match your search. </string>
+    <string name="second_slide_desc">We provide almost all the numbers of all departments and shops registered with us. You can perform bookings as well.</string>
+    <string name="third_slide_desc">If you have a shop or somethings and want to be a part of our growing industry then add your place by follwing simple steps.</string>
+
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+
+    <!--Sign Up Sheet-->
+    <string name="sign_up">Sign Up</string>
+    <string name="retailer_heading">Grow Your Business</string>
+    <string name="retailer_tag_line">We will help you to grow your business</string>
+    <string name="how_we_work">How we work?</string>
+    <string name="create_account">Create Account</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="log_in">Log in</string>
+
+
+</resources>

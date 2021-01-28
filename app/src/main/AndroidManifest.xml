@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newfyp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewFYP">
+        <activity android:name=".Common.Grocery"></activity>
+        <activity android:name=".Common.Fruits" />
+        <activity android:name=".Common.Pastry" />
+        <activity android:name=".Common.Meal" />
+        <activity android:name=".Common.LoginPage.MyCart" />
+        <activity android:name=".Common.Food_available" />
+        <activity android:name=".Common.MainPage" />
+        <activity android:name=".Common.Food_profile" />
+        <activity android:name=".Common.Info3" />
+        <activity android:name=".Common.LoginPage.Info2" />
+        <activity android:name=".Common.Info1" />
+        <activity android:name=".Common.LoginPage.ClientSignUp" />
+        <activity android:name=".Common.Food_add" />
+        <activity android:name=".Common.OwnerInfo" />
+        <activity android:name=".Common.SupplierAdd" />
+        <activity android:name=".Common.Choice" />
+        <activity android:name=".Common.LoginPage.SignUp" />
+        <activity android:name=".Common.LoginPage.LogIn" />
+        <activity android:name=".Common.LoginPage.RetailerStartUpScreen" />
+        <activity android:name=".User.UseDashboard" />
+        <activity android:name=".Common.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

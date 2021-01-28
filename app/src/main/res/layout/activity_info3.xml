@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Common.Info1"
+    android:background="@drawable/foodback2"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="310dp"
+            android:layout_height="118dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/black"
+            android:fontFamily="@font/alex_brush"
+            android:paddingTop="20dp"
+            android:text="Welcome to Center Bar"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+
+        <TextView
+            android:id="@+id/information"
+            android:layout_width="294dp"
+            android:layout_height="133dp"
+            android:layout_margin="50dp"
+            android:background="@color/black"
+            android:fontFamily="@font/adamina"
+            android:paddingTop="10dp"
+
+
+            android:text="
+            Location: Isanov 123\n
+            Working time: 10:00-22:00\n
+            Delivery: No
+            Takeaway: yes"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/cafeDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/adamina"
+            android:padding="20sp"
+            android:text="Center bar is a creative, people-focused business committed to providing the greatest experience of joy to our customers through quality food, beverages, and art. We use fresh, non-GMO, and locally grown chickens and ingredients for our dishes. "
+
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See products"
+            android:backgroundTint="@color/green"
+            android:layout_marginLeft="130dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

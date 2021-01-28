@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Common.Food_profile"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20sp"
+
+
+        >
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:src="@drawable/pics1" />
+
+        <TextView
+            android:layout_width="158dp"
+
+            android:layout_height="match_parent"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:paddingTop="20sp"
+            android:text="Pankakes\n\n Ingredients: eggs, sugar, milk,vegetable oil\n\nExpire date: 15.12.202\n\nPrice: 120som" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20sp"
+
+        >
+
+        <ImageView
+            android:layout_width="224dp"
+            android:layout_height="281dp"
+
+            android:layout_weight="1"
+            android:src="@drawable/pic2" />
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="269dp"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:text="Sushi\n\n Ingredients: eggs, rice, fish,vegetable oil\n\nExpire date: 18.12.202\n\nPrice: 420som" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20sp"
+
+        >
+
+        <ImageView
+            android:layout_width="224dp"
+            android:layout_height="281dp"
+            android:layout_weight="1"
+            android:src="@drawable/pics2" />
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="269dp"
+            android:layout_weight="1"
+            android:layout_marginTop="20sp"
+            android:text="Something creative\n\n Ingredients: eggs, sugar, milk,vegetable oil\n\nExpire date: 12.12.202\n\nPrice: 80som" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20sp"
+
+        >
+
+        <ImageView
+            android:layout_width="224dp"
+            android:layout_height="281dp"
+            android:layout_weight="1"
+            android:src="@drawable/pic5" />
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="269dp"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:text="Cheese Burger\n\n Ingredients: eggs, cheese, vegetable\n\nExpire date: 15.12.202\n\nPrice: 120som" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20sp"
+
+        >
+
+        <ImageView
+            android:layout_width="224dp"
+            android:layout_height="281dp"
+            android:layout_weight="1"
+            android:src="@drawable/pics3" />
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="269dp"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:text="Cupcakes\n\n Ingredients: eggs, sugar, milk,vegetable oil\n\nExpire date: 16.12.202\n\nPrice: 20som each" />
+
+
+    </LinearLayout>
+</LinearLayout>

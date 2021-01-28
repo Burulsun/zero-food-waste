@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="info3"
+    android:orientation="vertical"
+
+
+    tools:context=".Common.OwnerInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:padding="0dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/bublik"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1.0"
+                android:onClick="info1"
+                android:paddingLeft="0dp"
+                android:paddingBottom="20dp"
+                android:src="@drawable/bublik" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/chicken"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1.0"
+                android:onClick="info2"
+                android:paddingLeft="0dp"
+                android:paddingBottom="20dp"
+                android:src="@drawable/chicken" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/center"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1.0"
+                android:paddingLeft="0dp"
+                android:paddingBottom="20dp"
+                android:src="@drawable/center" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
